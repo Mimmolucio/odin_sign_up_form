@@ -1,0 +1,128 @@
+@font-face {
+    font-family: norse;
+    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    
+}
+
+.images {
+
+    flex-grow: 1;
+    background-image: url(./images/photo-1585202900225-6d3ac20a6962.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    min-width: 35%;
+
+
+
+}
+
+.form {
+    flex-grow: 3;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgba(29, 29, 29, 0.65);
+    width: 100%;
+    position: relative;
+    top: 20vh;
+}
+
+.logo img {
+    height: 130px;
+}
+
+.logo p {
+    color: white;
+    font-size: 130px;
+    font-family: norse;
+
+}
+
+.form {
+    margin: 40px;
+}
+
+.greeting,
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.actual_form {
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1, .col2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+input {
+    width: 300px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgb(189, 189, 189);
+    height: 25px;
+}
+
+input:focus {
+    outline: none !important;
+    border-width: 2px;
+    border-color: blue;
+    box-shadow: 3px 3px 3px rgb(160, 160, 160);
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.down {
+    margin-top: 50px;
+}
+
+.up {
+    box-shadow: 0px 5px 2px lightgrey;
+}
+
+.down p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+a {
+    color: #596D48;
+}
